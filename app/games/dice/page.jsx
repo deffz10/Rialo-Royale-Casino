@@ -561,7 +561,7 @@ export default function DicePage() {
                 </div>
                 <div style={{ background:"#080d1a", border:"1px solid rgba(255,255,255,.05)", borderRadius:16, padding:"14px 16px" }}>
                   <div style={{ fontFamily:"'Bebas Neue',cursive", fontSize:14, color:"#fb923c", letterSpacing:4, marginBottom:10 }}>GAME INFO</div>
-                  {[["Win Chance","50%"],["Payout","1.96×"],["House Edge","2%"],["Min Bet","1 gUSDC"],["Max Bet","100 gUSDC"],["TX","1 (instant)"]].map(([l,v]) => (
+                  {[["Win Chance","50%"],["Payout","1.96×"],["House Edge","2%"],["Min Bet","1 gUSDC"],["Max Bet","50 gUSDC"],["TX","1 (instant)"]].map(([l,v]) => (
                     <div key={l} style={{ display:"flex", justifyContent:"space-between", padding:"5px 0", borderBottom:"1px solid rgba(255,255,255,0.1)", fontSize:11, fontFamily:"'Rajdhani',sans-serif" }}>
                       <span style={{ color:"#94a3b8" }}>{l}</span><span style={{ color:"#ffffff", fontWeight:700 }}>{v}</span>
                     </div>
