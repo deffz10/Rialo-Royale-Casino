@@ -404,7 +404,7 @@ export default function SlotsPage() {
                 </div>
                 <div style={{ background:"#080d1a", border:"1px solid rgba(255,255,255,.05)", borderRadius:16, padding:"14px 16px" }}>
                   <div style={{ fontFamily:"'Bebas Neue',cursive", fontSize:14, color:"#fb923c", letterSpacing:4, marginBottom:10 }}>GAME INFO</div>
-                  {[["Min Bet","1 gUSDC"],["Max Bet","100 gUSDC"],["House Edge","2%"],["Transactions","1 (instant)"],["RNG","Block Entropy"]].map(([l,v]) => (
+                  {[["Min Bet","1 gUSDC"],["Max Bet","50 gUSDC"],["House Edge","2%"],["Transactions","1 (instant)"],["RNG","Block Entropy"]].map(([l,v]) => (
                     <div key={l} style={{ display:"flex", justifyContent:"space-between", padding:"5px 0", borderBottom:"1px solid rgba(255,255,255,.04)", fontSize:11, fontFamily:"'Rajdhani',sans-serif" }}>
                       <span style={{ color:"#cbd5e1" }}>{l}</span><span style={{ color:"#ffffff", fontWeight:700 }}>{v}</span>
                     </div>
